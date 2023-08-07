@@ -1,0 +1,27 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "This is a node server for ChatEasy app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nishant3231/ChatEasy.git"
+  },
+  "keywords": [
+    "nodeserverforchateasy"
+  ],
+  "author": "Nishant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nishant3231/ChatEasy/issues"
+  },
+  "homepage": "https://github.com/Nishant3231/ChatEasy#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.7.2"
+  }
+}

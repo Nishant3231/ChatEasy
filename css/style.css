@@ -1,0 +1,93 @@
+.logo
+{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+body
+{
+    display: block;
+    margin: auto;
+    height: 100vh;
+    width: 100%;
+    max-width: 1055px;
+    /* aspect-ratio: 100 /; */
+    background-color: rgb(87, 211, 238);
+    /* background-color: rgb(67, 112, 159); */
+}
+h1
+{
+    margin-top: 12px;
+    display: block;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center ;
+}
+.container
+{
+    width: 100%;
+    max-width: 755px;
+    background-color: aqua;
+    /* border: solid black; */
+    margin: auto;
+    height: 500px;
+    overflow-y: auto;
+    border: solid black;
+    border-radius: 10px;
+}
+
+.message
+{
+    font-size: 20px;
+    text-decoration: wavy;
+    background-color: bisque;
+    width: 355px;
+    margin: 15px 2px ;
+    padding: 10px;
+    border: solid black;
+    border-radius: 10px;
+}
+
+.left
+{
+    float: left;
+    clear: both;
+}
+.right
+{
+    float: right;
+    clear: both;
+}
+
+.btn
+{
+    width: 60px;
+    cursor: pointer;
+    border: solid rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 40px;
+}
+
+#send-container
+{
+    display: block;
+    text-align: center;
+    margin: auto;
+    /* margin-top: 5px; */
+    padding: 5px;
+    max-width: 745px;
+    border: solid rgb(6, 6, 6);
+    border-style:groove;
+    border-radius: 10px;
+    background-color: rgb(31, 130, 217);
+}
+
+#messageInp
+{
+    font-size:medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: solid;
+    height: 35px;
+    width: 90%;
+}
